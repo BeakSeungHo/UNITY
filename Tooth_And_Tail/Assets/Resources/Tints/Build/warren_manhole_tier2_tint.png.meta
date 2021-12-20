@@ -1,0 +1,592 @@
+fileFormatVersion: 2
+guid: a9af661efe2651940aee7b3fafb2d019
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: warren_manhole_tier2_tint_0
+    21300002: warren_manhole_tier2_tint_1
+    21300004: warren_manhole_tier2_tint_2
+    21300006: warren_manhole_tier2_tint_3
+    21300008: warren_manhole_tier2_tint_4
+    21300010: warren_manhole_tier2_tint_5
+    21300012: warren_manhole_tier2_tint_6
+    21300014: warren_manhole_tier2_tint_7
+    21300016: warren_manhole_tier2_tint_8
+    21300018: warren_manhole_tier2_tint_9
+    21300020: warren_manhole_tier2_tint_10
+    21300022: warren_manhole_tier2_tint_11
+    21300024: warren_manhole_tier2_tint_12
+    21300026: warren_manhole_tier2_tint_13
+    21300028: warren_manhole_tier2_tint_14
+    21300030: warren_manhole_tier2_tint_15
+    21300032: warren_manhole_tier2_tint_16
+    21300034: warren_manhole_tier2_tint_17
+    21300036: warren_manhole_tier2_tint_18
+    21300038: warren_manhole_tier2_tint_19
+    21300040: warren_manhole_tier2_tint_20
+    21300042: warren_manhole_tier2_tint_21
+    21300044: warren_manhole_tier2_tint_22
+    21300046: warren_manhole_tier2_tint_23
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: warren_manhole_tier2_tint_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 101.33333
+        width: 56
+        height: 50.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd285dd0701905c43b84ce0f1ba2ceb2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warren_manhole_tier2_tint_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 101.33333
+        width: 56
+        height: 50.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b1e457105db77449044a1de7733476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warren_manhole_tier2_tint_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 101.33333
+        width: 56
+        height: 50.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3c5a66bd459da42afc7f9d0a5f6474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warren_manhole_tier2_tint_3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 101.33333
+        width: 56
+        height: 50.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6583064ff2ad39f469fd54cf5cbe5317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warren_manhole_tier2_tint_4
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 101.33333
+        width: 56
+        height: 50.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f22ec537eb8dbf439bd0f770a3b6f54
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warren_manhole_tier2_tint_5
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 101.33333
+        width: 56
+        height: 50.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906e6023fee45b246a9a4f1d2a1de1f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warren_manhole_tier2_tint_6
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 101.33333
+        width: 56
+        height: 50.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9953215989b8634ab3d76d3f103b386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warren_manhole_tier2_tint_7
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 101.33333
+        width: 56
+        height: 50.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665aa9451204bcf49b426e6c8c923625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warren_manhole_tier2_tint_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51.333332
+        width: 56
+        height: 50.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ad539d8d607984c8d25d44af0d384e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warren_manhole_tier2_tint_9
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 51.333332
+        width: 56
+        height: 50.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136e5b53c3f54de41b33fa21428a0676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warren_manhole_tier2_tint_10
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 51.333332
+        width: 56
+        height: 50.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b8e8eeeec0e6144bda60ec1f414f41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warren_manhole_tier2_tint_11
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 51.333332
+        width: 56
+        height: 50.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb331f0fa6fcc0a4cb70329c670004da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warren_manhole_tier2_tint_12
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 51.333332
+        width: 56
+        height: 50.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f5bf9692564164492bcb63041c02b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warren_manhole_tier2_tint_13
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 51.333332
+        width: 56
+        height: 50.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5e70202273f8346ab240dfcb7fdc73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warren_manhole_tier2_tint_14
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 51.333332
+        width: 56
+        height: 50.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d615bf485bb784596e69ccbb1126ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warren_manhole_tier2_tint_15
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 51.333332
+        width: 56
+        height: 50.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb55e1321a0a5e4680c91d2f4b201da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warren_manhole_tier2_tint_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.3333321
+        width: 56
+        height: 50.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50b8fc97e726f349bda21cbd7881452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warren_manhole_tier2_tint_17
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1.3333321
+        width: 56
+        height: 50.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe449cb4c995454d88e09abb25e3202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warren_manhole_tier2_tint_18
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1.3333321
+        width: 56
+        height: 50.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb948aa95d3f1fd458e007c66551a73b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warren_manhole_tier2_tint_19
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1.3333321
+        width: 56
+        height: 50.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf3905cfe7325642ac8b789a40d1126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warren_manhole_tier2_tint_20
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1.3333321
+        width: 56
+        height: 50.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156238af5ec494c4693e9672d6c8ea41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warren_manhole_tier2_tint_21
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1.3333321
+        width: 56
+        height: 50.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47265ee39a9d0a74688d79adaec2ec22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warren_manhole_tier2_tint_22
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1.3333321
+        width: 56
+        height: 50.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda8304944870454aba62d9bf3b97acb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warren_manhole_tier2_tint_23
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1.3333321
+        width: 56
+        height: 50.666668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deede53b44331bd41b9d96de4768a237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2c134709dff4a704caaa6d70de00b57d
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

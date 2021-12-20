@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 63d57efa056782d4e88d944855c31ae4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - commonElements: {instanceID: 0}
+  - userElements: {instanceID: 0}
+  - animatorElements: {fileID: 11400000, guid: 1bc0d75d0ffd797419d9329daef677e3, type: 2}
+  - gameElements: {instanceID: 0}
+  - tintElements: {instanceID: 0}
+  - uIElements: {instanceID: 0}
+  - reinforceElements: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

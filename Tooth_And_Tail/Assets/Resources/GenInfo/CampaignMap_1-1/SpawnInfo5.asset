@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84af5813bef1424438900e33f8447af6, type: 3}
+  m_Name: SpawnInfo5
+  m_EditorClassIdentifier: 
+  nodeType: 1
+  GenCamp: 3
+  GenPosition: []
+  Type: 0
+  ProductType: 0
+  GenCount: 8
+  Wave: 0
+  PositionIndex: 0
+  GenAction:
+    m_PersistentCalls:
+      m_Calls: []
+  Level: 3
+  Tear1Ratio: 0.8
+  Tear2Ratio: 0.2
+  Tear3Ratio: 0
