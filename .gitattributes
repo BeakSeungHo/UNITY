@@ -1,2 +1,5 @@
 Tooth_And_Tail/tooth[[:space:]]and[[:space:]]tail.apk filter=lfs diff=lfs merge=lfs -text
 Tooth_And_Tail/Library/il2cpp_android_x86/il2cpp_cache/linkresult_CC5410513B31994CB6A40B180021C805/libil2cpp.so filter=lfs diff=lfs merge=lfs -text
+Tooth_And_Tail/tooth filter=lfs diff=lfs merge=lfs -text
+and filter=lfs diff=lfs merge=lfs -text
+tail.apk filter=lfs diff=lfs merge=lfs -text
