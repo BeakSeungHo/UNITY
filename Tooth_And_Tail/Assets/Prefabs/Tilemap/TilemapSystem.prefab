@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6907718238287516075
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6907718238287516076}
+  m_Layer: 0
+  m_Name: Colliders
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6907718238287516076
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6907718238287516075}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6907718238300275890}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6907718238300275888
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6907718238300275890}
+  - component: {fileID: 6907718238300275889}
+  m_Layer: 0
+  m_Name: TilemapSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6907718238300275890
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6907718238300275888}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.6415515, y: -2.2176197, z: -0.30815342}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6907718238287516076}
+  - {fileID: 6907718239355102876}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6907718238300275889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6907718238300275888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e466831d447468040bfb2f3d3dd0ad74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  map: {fileID: 0}
+  colliderList:
+  - {fileID: 1549240510527944068, guid: bc4f37e90411f7d4eb57511dfdb6d5a5, type: 3}
+  - {fileID: 1549240510527944068, guid: bc4f37e90411f7d4eb57511dfdb6d5a5, type: 3}
+  - {fileID: 8709032479936360342, guid: c702f475058d82e4180ac5a7661baeb6, type: 3}
+  - {fileID: 7036532613125890889, guid: a91a9adbbd22aa14ba5bae94ff91d43e, type: 3}
+  - {fileID: 1549240510527944068, guid: bc4f37e90411f7d4eb57511dfdb6d5a5, type: 3}
+  - {fileID: 8709032479936360342, guid: c702f475058d82e4180ac5a7661baeb6, type: 3}
+  - {fileID: 1549240510527944068, guid: bc4f37e90411f7d4eb57511dfdb6d5a5, type: 3}
+  - {fileID: 7036532613125890889, guid: a91a9adbbd22aa14ba5bae94ff91d43e, type: 3}
+  - {fileID: 1549240510527944068, guid: bc4f37e90411f7d4eb57511dfdb6d5a5, type: 3}
+  - {fileID: 5140764786758188621, guid: 741d29f2dec3d5849bd1bdb9f00efd71, type: 3}
+  - {fileID: 1549240510527944068, guid: bc4f37e90411f7d4eb57511dfdb6d5a5, type: 3}
+  - {fileID: 1549240510527944068, guid: b35c11fb6f5b178449f5183c1f084fd6, type: 3}
+  - {fileID: 4494278392366914365, guid: ef020bcce3776c34f8fd8dfa781eb5b5, type: 3}
+  maps:
+  - {fileID: 2908139362869871346, guid: 2a1d881321eac1e41899d5c4dbc6893e, type: 3}
+  - {fileID: 5670795942002542304, guid: 9c2cd29238c97a549ad58e312d1f558b, type: 3}
+  - {fileID: 4134424638375081543, guid: ec8c0e826931ca5439774bb6e525ef4c, type: 3}
+  Colliders: {fileID: 0}
+  Ground: {fileID: 0}
+  Wall: {fileID: 0}
+  Decor: {fileID: 0}
+  roadMap: {fileID: 0}
+  roadTile: {fileID: 11400000, guid: b3e94aeb0b38ff7449896b93751fa5b3, type: 2}
+  OutLines: []
+  Indicators: {fileID: 6907718239355102875}
+  pathIndicator: {fileID: 5754180512494126087, guid: 676e66738b5261d4cb7769ee8263e55f,
+    type: 3}
+  Debugging: 0
+  tileBounds:
+    m_Position: {x: 0, y: 0, z: 0}
+    m_Size: {x: 0, y: 0, z: 0}
+  player: {fileID: 0}
+  sprite: {fileID: 0}
+  texter: {fileID: 4588314832289794643, guid: 7621cbdcd5f5cf54aa268eac6cfea622, type: 3}
+--- !u!1 &6907718239355102875
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6907718239355102876}
+  m_Layer: 0
+  m_Name: Indicator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6907718239355102876
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6907718239355102875}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6907718238300275890}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

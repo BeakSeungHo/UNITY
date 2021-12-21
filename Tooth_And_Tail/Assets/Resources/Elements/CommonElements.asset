@@ -1,0 +1,635 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fffc50d354615e41bb5daf436f1b00a, type: 3}
+  m_Name: CommonElements
+  m_EditorClassIdentifier: 
+  CommonDataList:
+  - CommonType: 0
+    PlaceType: 0
+    AttackType: 2
+    PoolType: 0
+    UnitPerBuliding: 3
+    Sight: 4
+    Range: 4
+    Cost: 20
+    Damage: 2
+    MaxHp: 8
+    AttackSpeed: 1
+    ProjectileSpeed: 4
+    MoveSpeed: 1
+    GenTime: 7
+    Name: "\uC591\uC870\uC7A5 \uD615\uC81C\uB4E4"
+    Animal: "\uB2E4\uB78C\uC950"
+    Sentence: "\uD6C8\uB828\uBC1B\uC9C0 \uC54A\uC740 \uC99D\uB958\uC18C \uD615\uC81C\uB294
+      \uB3C4\uD1A0\uB9AC\uBB35\uC758 \uC6A9\uAE30\uC5D0 \uD798\uC785\uC5B4 \uC804\uD22C\uC5D0
+      \uB3CC\uC785\uD588\uB2E4."
+    BuildCost: 60
+  - CommonType: 1
+    PlaceType: 0
+    AttackType: 2
+    PoolType: 0
+    UnitPerBuliding: 3
+    Sight: 4
+    Range: 2
+    Cost: 20
+    Damage: 2
+    MaxHp: 9
+    AttackSpeed: 0.75
+    ProjectileSpeed: 4
+    MoveSpeed: 1
+    GenTime: 7
+    Name: "\uBD81\uBC29 \uC720\uBAA9\uBBFC"
+    Animal: "\uB3C4\uB9C8\uBC40"
+    Sentence: "\uBD80\uC871 \uBD81\uBD80\uC758 \uC774\uBBFC\uC790\uB4E4\uC740 \uADF8\uB4E4\uC758
+      \uCC28\uAC00\uC6B4 \uD53C\uB97C \uB728\uAC81\uAC8C \uC720\uC9C0\uD558\uAE30
+      \uC704\uD574 \uD138\uC744 \uC785\uB294\uB2E4."
+    BuildCost: 60
+  - CommonType: 2
+    PlaceType: 0
+    AttackType: 0
+    PoolType: 0
+    UnitPerBuliding: 3
+    Sight: 4
+    Range: 1
+    Cost: 20
+    Damage: 18
+    MaxHp: 7
+    AttackSpeed: 0
+    ProjectileSpeed: 1
+    MoveSpeed: 1
+    GenTime: 7
+    Name: "\uC5EC\uBA85\uC758 \uB450\uAEBC\uBE44"
+    Animal: "\uB450\uAEBC\uBE44"
+    Sentence: "\uC9C4\uC815\uD55C \uC2E0\uC790\uB4E4\uC778 \uC5EC\uBA85\uC758 \uB450\uAEBC\uBE44\uB4E4\uC740
+      \uD654\uC57D\uC5D0 \uBD88\uAF43\uC774 \uB2FF\uB294 \uADF8 \uC21C\uAC04 \uC885\uAD50\uC5D0
+      \uB300\uD55C \uD5CC\uC2E0\uC744 \uD6C4\uD68C\uD558\uACE4 \uD569\uB2C8\uB2E4."
+    BuildCost: 60
+  - CommonType: 3
+    PlaceType: 1
+    AttackType: 2
+    PoolType: 0
+    UnitPerBuliding: 3
+    Sight: 6
+    Range: 4
+    Cost: 20
+    Damage: 1
+    MaxHp: 4
+    AttackSpeed: 0.5
+    ProjectileSpeed: 2
+    MoveSpeed: 1
+    GenTime: 7
+    Name: "\uC9C0\uC6D0\uBCD1"
+    Animal: "\uBE44\uB458\uAE30"
+    Sentence: "\uC804\uC7C1\uC774 \uB9C9 \uC2DC\uC791\uB410\uC744 \uBB34\uB835\uC758
+      \uBCD1\uC0AC\uB4E4\uC740 \uD558\uB298\uC5D0\uC11C \uB5A8\uC5B4\uC9C0\uB294 \uD558\uC580\uC0C9
+      \uAFB8\uB7EC\uBBF8\uB97C \uBC1B\uC544\uBA39\uB294 \uD589\uC704\uB97C \uC218\uCE58\uB85C
+      \uC5EC\uACBC\uC2B5\uB2C8\uB2E4. \uC9C0\uAE08\uC740 \uBC1B\uC544\uBA39\uC744
+      \uC218 \uC788\uB294 \uAC74 \uC8C4\uB2E4 \uBC1B\uC544\uBA39\uC9C0\uB9CC\uC694."
+    BuildCost: 60
+  - CommonType: 4
+    PlaceType: 0
+    AttackType: 0
+    PoolType: 0
+    UnitPerBuliding: 3
+    Sight: 4
+    Range: 1
+    Cost: 20
+    Damage: 3
+    MaxHp: 25
+    AttackSpeed: 0.75
+    ProjectileSpeed: 0
+    MoveSpeed: 1
+    GenTime: 7
+    Name: "\uC6A9\uC5ED \uC5D4\uC9C0\uB2C8\uC5B4"
+    Animal: "\uB450\uB354\uC9C0"
+    Sentence: "\uAE30\uC220\uC790\uB780 \uC774\uB984\uC774 \uBB34\uC0C9\uD558\uAC8C\uB3C4
+      \uC5D4\uC9C0\uB2C8\uC5B4\uB4E4\uC740 \uBB54\uAC00\uB97C \uC9D3\uB294 \uAC83\uBCF4\uB2E8
+      \uB54C\uB824\uBD80\uC218\uB294 \uB370 \uB2A5\uC219\uD55C \uAC83 \uAC19\uC2B5\uB2C8\uB2E4."
+    BuildCost: 60
+  - CommonType: 5
+    PlaceType: 0
+    AttackType: 0
+    PoolType: 0
+    UnitPerBuliding: 2
+    Sight: 5
+    Range: 8
+    Cost: 60
+    Damage: 10
+    MaxHp: 25
+    AttackSpeed: 0.45
+    ProjectileSpeed: 0.5
+    MoveSpeed: 1
+    GenTime: 15
+    Name: "\uD654\uBB3C \uC5F0\uD569"
+    Animal: "\uD398\uB7FF"
+    Sentence: "\uC8FC\uC758\uC0AC\uD56D: \uD654\uBB3C \uC5F0\uD569\uC740 \uC2E0\uC18D\uD55C
+      \uBC30\uB2EC\uC5D0 \uB300\uD574\uC11C\uB9CC \uBCF4\uC7A5\uC744 \uD574\uB4DC\uB9B4\uBFD0
+      \uACC4\uC57D\uC11C \uC5B4\uB514\uC5D0\uB3C4 \uD654\uBB3C\uC758 \uC0C1\uD0DC\uC5D0
+      \uB300\uD55C \uC870\uD56D\uC740 \uC5C6\uB2E4\uB294\uAC78 \uBA85\uC2DC\uD558\uACE0
+      \uC788\uC2B5\uB2C8\uB2E4."
+    BuildCost: 120
+  - CommonType: 6
+    PlaceType: 1
+    AttackType: 2
+    PoolType: 0
+    UnitPerBuliding: 2
+    Sight: 6
+    Range: 4
+    Cost: 60
+    Damage: 1.2
+    MaxHp: 15
+    AttackSpeed: 0.5
+    ProjectileSpeed: 4
+    MoveSpeed: 1
+    GenTime: 15
+    Name: "\uB0A0\uAC1C \uB2EC\uB9B0 \uC545\uB9C8"
+    Animal: "\uD314\uCF58"
+    Sentence: "\uC804\uC6D0\uC774 \uB0A8\uC131\uC778 \uACF5\uC911\uC804\uD22C \uD2B9\uC218\uBD80\uB300\uC778
+      \uC790\uC2E0\uB9CC\uB9CC\uD558\uB294 \uB0A0\uAC1C\uB2EC\uB9B0 \uC545\uB9C8\uB4E4\uC740
+      \uC804\uC801\uACFC \uB354\uBD88\uC5B4 \uACE0\uAE30 \uC5F0\uC560\uB97C \uB450\uACE0
+      \uACBD\uC7C1\uD569\uB2C8\uB2E4."
+    BuildCost: 120
+  - CommonType: 7
+    PlaceType: 0
+    AttackType: 0
+    PoolType: 0
+    UnitPerBuliding: 2
+    Sight: 4
+    Range: 4
+    Cost: 60
+    Damage: 3
+    MaxHp: 32
+    AttackSpeed: 1
+    ProjectileSpeed: 2
+    MoveSpeed: 1
+    GenTime: 15
+    Name: "\uC601\uAD11\uC2A4\uB7F0 AFB"
+    Animal: "\uC2A4\uCEF9\uD06C"
+    Sentence: "\uC0C1\uB958\uCE35\uC73C\uB85C\uBD80\uD130 \uCC9C\uB300\uBC1B\uC73C\uBA70
+      \uC9C0\uB0B4\uB358 \uC601\uAD11\uC2A4\uB7F0 AFB\uB4E4\uC758 \uC870\uC6A9\uD558\uACE0
+      \uCE58\uBA85\uC801\uC778 \uC804\uC220\uB4E4\uC740 \uADF8\uB4E4\uC744 \uAC70\uBD81\uD55C
+      \uAD6D\uBBFC \uC601\uC6C5\uC73C\uB85C \uB9CC\uB4E4\uC5B4 \uC92C\uC2B5\uB2C8\uB2E4."
+    BuildCost: 120
+  - CommonType: 8
+    PlaceType: 0
+    AttackType: 0
+    PoolType: 0
+    UnitPerBuliding: 2
+    Sight: 4
+    Range: 1
+    Cost: 60
+    Damage: 4
+    MaxHp: 40
+    AttackSpeed: 0.5
+    ProjectileSpeed: 0
+    MoveSpeed: 1
+    GenTime: 15
+    Name: "\uD2B8\uB80C\uCE58 \uAC31"
+    Animal: "\uCE74\uBA5C\uB808\uC628"
+    Sentence: "\uC804\uC6D0\uC774 \uB0A8\uC131\uC778 \uACF5\uC911\uC804\uD22C \uD2B9\uC218\uBD80\uB300\uC778
+      \uC790\uC2E0\uB9CC\uB9CC\uD558\uB294 \uB0A0\uAC1C\uB2EC\uB9B0 \uC545\uB9C8\uB4E4\uC740
+      \uC804\uC801\uACFC \uB354\uBD88\uC5B4 \uACE0\uAE30 \uC5F0\uC560\uB97C \uB450\uACE0
+      \uACBD\uC7C1\uD569\uB2C8\uB2E4."
+    BuildCost: 120
+  - CommonType: 9
+    PlaceType: 0
+    AttackType: 2
+    PoolType: 0
+    UnitPerBuliding: 2
+    Sight: 4
+    Range: 4
+    Cost: 60
+    Damage: 2
+    MaxHp: 35
+    AttackSpeed: 1
+    ProjectileSpeed: 4
+    MoveSpeed: 1
+    GenTime: 15
+    Name: "\uC774\uBE68 \uC218\uC9D1\uAC00"
+    Animal: "\uBC40"
+    Sentence: "\uBE5A\uC744 \uAC1A\uC9C0 \uBABB\uD558\uBA74  \uC774\uBE68 \uC218\uC9D1\uAC00\uB4E4\uC774
+      \uCC3E\uC544\uAC11\uB2C8\uB2E4. \uC774\uBE68\uB9C8\uC800 \uB2E4 \uB5A8\uC5B4\uC9C4\uB2E4\uBA74
+      \ \uB3C5\uB9CC\uC774 \uC720\uC77C\uD55C \uD574\uACB0\uCC45\uC774 \uB418\uACA0\uC9C0\uC694."
+    BuildCost: 120
+  - CommonType: 10
+    PlaceType: 0
+    AttackType: 0
+    PoolType: 0
+    UnitPerBuliding: 1
+    Sight: 4
+    Range: 4
+    Cost: 180
+    Damage: 4
+    MaxHp: 120
+    AttackSpeed: 1
+    ProjectileSpeed: 0
+    MoveSpeed: 1
+    GenTime: 30
+    Name: "\uC5C9\uD074 \uBC84\uD130"
+    Animal: "\uBA67\uB3FC\uC9C0"
+    Sentence: "\uC804\uC7C1 \uC804\uC5D0\uB294  \uADF8\uB294 \uADF8 \uB098\uB77C \uCD5C\uACE0\uC758
+      \uBBF8\uC2DD\uAC00\uB85C \uC54C\uB824\uC838 \uC788\uC5C8\uB2E4. \uBC84\uD130
+      \uC544\uC800\uC528\uB294 \uC5EC\uC804\uD788 \uACE0\uAE30\uB97C \uC694\uB9AC\uD558\uC9C0\uB9CC
+      \ \uB354 \uC774\uC0C1 \uBA39\uC774\uB97C \uBA3C\uC800 \uC8FD\uC774\uC9C0 \uC54A\uB294\uB2E4."
+    BuildCost: 180
+  - CommonType: 11
+    PlaceType: 0
+    AttackType: 2
+    PoolType: 0
+    UnitPerBuliding: 1
+    Sight: 4
+    Range: 4
+    Cost: 180
+    Damage: 3
+    MaxHp: 60
+    AttackSpeed: 0.5
+    ProjectileSpeed: 8
+    MoveSpeed: 1
+    GenTime: 30
+    Name: "\uC218\uAC10\uC790#43B"
+    Animal: "\uC624\uC18C\uB9AC"
+    Sentence: "\uADF8\uB140\uC758 \uAC00\uC871\uB4E4\uC740 \uBAA8\uB450 \uD130\uBB34\uB2C8
+      \uC5C6\uB294 \uAD11\uAE30\uB77C\uB294 \uC774\uB984 \uD558\uC5D0 \uAC10\uC625\uC5D0
+      \uC218\uAC10\uB418\uC5C8\uC2B5\uB2C8\uB2E4. \uAC10\uC625\uC5D0\uC11C \uAC00\uC9DC
+      \uBCD1\uBA85\uC740 \uC9C4\uC9DC\uAC00 \uB418\uACE0 \uB9D0\uC558\uC2B5\uB2C8\uB2E4."
+    BuildCost: 180
+  - CommonType: 12
+    PlaceType: 1
+    AttackType: 0
+    PoolType: 0
+    UnitPerBuliding: 1
+    Sight: 6
+    Range: 0
+    Cost: 180
+    Damage: 0
+    MaxHp: 40
+    AttackSpeed: 10
+    ProjectileSpeed: 0
+    MoveSpeed: 1
+    GenTime: 30
+    Name: "\uB300\uBAA8"
+    Animal: "\uC62C\uBE7C\uBBF8"
+    Sentence: "\uB300\uBAA8\uB2D8\uC758 \uAC00\uC871\uC740 \uBC30\uC2E0\uC73C\uB85C
+      \uACE0\uD1B5\uBC1B\uC9C0\uC54A\uC2B5\uB2C8\uB2E4. \uBC30\uC2E0\uC744 \uD558\uBA74
+      \uC7A1\uC544\uBA39\uD788\uAE30 \uB54C\uBB38\uC774\uC9C0\uC694. \uD558\uC9C0\uB9CC
+      \uB3D9\uC815\uC2EC\uC774 \uC5C6\uB294\uAC83\uB3C4 \uC544\uB2D9\uB2C8\uB2E4.
+      \ \uC8C4\uB97C \uB258\uC6B0\uCE58\uBA74 \uB2E4\uC2DC \uB0B4\uBC49\uC5B4\uC838
+      \uC18D\uC8C4\uD560 \uB9C8\uC9C0\uB9C9 \uAE30\uD68C\uB97C \uC5BB\uC73C\uB2C8\uAE4C\uC694"
+    BuildCost: 180
+  - CommonType: 13
+    PlaceType: 0
+    AttackType: 2
+    PoolType: 0
+    UnitPerBuliding: 1
+    Sight: 4
+    Range: 4
+    Cost: 180
+    Damage: 0
+    MaxHp: 50
+    AttackSpeed: 0.5
+    ProjectileSpeed: 0
+    MoveSpeed: 1
+    GenTime: 30
+    Name: "\uD6C8\uB828 \uAD50\uAD00 \uBCFC\uCF54\uD504"
+    Animal: "\uB291\uB300"
+    Sentence: "\uB0B4\uC804 \uC774\uC804\uC5D4 \uBD80\uB044\uB7FC \uB9CE\uC740 \uAD00\uB8CC\uC600\uC73C\uB098
+      \uC774\uC81C \uC9C0\uB3C5\uD55C \uD5CC\uC2E0\uACFC \uACF5\uD3EC\uB97C \uBD88\uC5B4\uB123\uB294
+      \uBB34\uC11C\uC6B4 \uAD50\uAD00\uC774 \uB418\uC5C8\uC2B5\uB2C8\uB2E4. \uADFC\uCC98\uC5D0
+      \uC788\uB294 \uC720\uB2DB\uB4E4\uC774 3\uBC30 \uB354 \uBE68\uB9AC \uACF5\uACA9\uD569\uB2C8\uB2E4."
+    BuildCost: 180
+  - CommonType: 14
+    PlaceType: 0
+    AttackType: 2
+    PoolType: 0
+    UnitPerBuliding: 1
+    Sight: 5
+    Range: 6
+    Cost: 180
+    Damage: 18
+    MaxHp: 35
+    AttackSpeed: 0.5
+    ProjectileSpeed: 8
+    MoveSpeed: 1
+    GenTime: 30
+    Name: "\uB18D\uC7A5 \uC77C\uAFBC \uCE74\uC0E4"
+    Animal: "\uC5EC\uC6B0"
+    Sentence: "\uCE74\uC0E4\uB294 \uC5EC\uB984\uB0B4\uB0B4 \uC9C0\uBD95 \uC704\uC5D0
+      \uC62C\uB77C \uB3C4\uB451\uACFC \uCE68\uC785\uC790\uB97C \uACAC\uC81C\uD558\uB294
+      \uAC78\uB85C \uC2DC\uAC04\uC744 \uBCF4\uB0B4\uACE4 \uD588\uC2B5\uB2C8\uB2E4.
+      \uCE74\uC0E4\uB294 \uB3C4\uC2DC\uB97C \uC2EB\uC5B4\uD558\uBA70 \uB2E4\uC2DC
+      \uC2DC\uACE8\uC5D0 \uC788\uB294 \uC9D1\uC73C\uB85C \uB3CC\uC544\uAC00\uB294
+      \uAC83\uC744 \uB9C8\uB2E4\uD558\uC9C0 \uC54A\uC744 \uAC81\uB2C8\uB2E4."
+    BuildCost: 180
+  - CommonType: 15
+    PlaceType: 0
+    AttackType: 0
+    PoolType: 2
+    UnitPerBuliding: 1
+    Sight: 1
+    Range: 1
+    Cost: 20
+    Damage: 2
+    MaxHp: 25
+    AttackSpeed: 1
+    ProjectileSpeed: 0
+    MoveSpeed: 0
+    GenTime: 5
+    Name: "\uAE43\uD138 \uCCA0\uC870\uB9DD"
+    Animal: 
+    Sentence: "\"\uC804\uC124\uC5D0 \uC758\uD558\uBA74 \uACFC\uB85C\uD55C \uC791\uC5C5\uC790\uAC00
+      \uCCA0\uC870\uB9DD\uC758 \uCCAB \uCD9C\uD558 \uB54C \"\"\uAE43\uD138\"\"\uC774\uB77C
+      \uD45C\uAE30\uB41C \uB77C\uBCA8\uC744 \uC798\uBABB \uBD99\uC600\uB2E4\uACE0
+      \uD569\uB2C8\uB2E4. \uADF8 \uC774\uD6C4\uB85C \uC774\uB984\uC774 \uAD73\uC5B4\uC9C0\uAC8C
+      \uB418\uC5C8\uC9C0\uC694.\""
+    BuildCost: 20
+  - CommonType: 16
+    PlaceType: 0
+    AttackType: 0
+    PoolType: 2
+    UnitPerBuliding: 1
+    Sight: 1
+    Range: 1
+    Cost: 20
+    Damage: 15
+    MaxHp: 5
+    AttackSpeed: 0
+    ProjectileSpeed: 0
+    MoveSpeed: 0
+    GenTime: 5
+    Name: "\uC9C0\uB8B0"
+    Animal: 
+    Sentence: "\uC9C0\uB8B0\uC5D0 \uADF8\uB824\uC9C4 \uC5BC\uAD74\uC740 \uC791\uC5C5\uD558\uB2E4
+      \uC8FD\uC740 \uBCD1\uC0AC\uB97C \uAE30\uC5B5\uD558\uAC8C \uD569\uB2C8\uB2E4.
+      \uC2F8\uC6B0\uC9C0\uC54A\uACE0 \uC8FD\uC5B4\uAC04 \uBCD1\uC0AC\uB294 \uC5C6\uC73C\uBA70
+      \uADF8\uB9AC\uACE0 \uBCF5\uC218\uB97C \uACB0\uC2EC\uD558\uC9C0 \uC54A\uB294
+      \uBCD1\uC0AC\uB3C4 \uC5C6\uB294 \uBC95\uC774\uC9C0\uC694."
+    BuildCost: 20
+  - CommonType: 17
+    PlaceType: 0
+    AttackType: 2
+    PoolType: 2
+    UnitPerBuliding: 1
+    Sight: 4
+    Range: 4
+    Cost: 60
+    Damage: 0.6
+    MaxHp: 35
+    AttackSpeed: 0.1
+    ProjectileSpeed: 6
+    MoveSpeed: 0
+    GenTime: 5
+    Name: "\uCD1D\uC54C \uBC8C\uD1B5"
+    Animal: 
+    Sentence: "\uB2E4\uC74C \uC138\uB300\uB294 \uC804\uC7A5\uC758 \uCD1D\uC54C \uBC8C\uD1B5\uC774
+      \uBFCC\uB9B0 \uC218\uB9CE\uC740 \uD0C4\uD53C\uB85C \uAC70\uB300\uD55C \uBD80\uB97C
+      \uCC3E\uC744 \uC218 \uC788\uC744\uAC81\uB2C8\uB2E4."
+    BuildCost: 60
+  - CommonType: 18
+    PlaceType: 1
+    AttackType: 2
+    PoolType: 2
+    UnitPerBuliding: 1
+    Sight: 8
+    Range: 6
+    Cost: 120
+    Damage: 16
+    MaxHp: 30
+    AttackSpeed: 2
+    ProjectileSpeed: 7
+    MoveSpeed: 0
+    GenTime: 10
+    Name: "\uC5F4\uAE30\uAD6C \uC800\uACA9\uC218"
+    Animal: 
+    Sentence: "\"\uC5F4\uAE30\uAD6C\uC5D0 \uC624\uB974\uB294 \uBCD1\uC0AC\uB4E4\uC5D0
+      \uC624\uAC00\uB294 \uC624\uB798\uB41C \uC774\uC57C\uAE30\uAC00 \uC788\uC9C0\uC694
+      \"\"\uC0AC\uC8FC\uACBD\uACC4 \uCCA0\uC800\uD788\uD558\uB418  \uC808\uB300 \uC808\uB300\uB85C
+      \uBC11\uC744 \uBC14\uB77C\uBCF4\uC9C0 \uB9D0 \uAC83.\"\"\""
+    BuildCost: 120
+  - CommonType: 19
+    PlaceType: 0
+    AttackType: 0
+    PoolType: 2
+    UnitPerBuliding: 1
+    Sight: 6
+    Range: 8
+    Cost: 180
+    Damage: 12
+    MaxHp: 60
+    AttackSpeed: 2
+    ProjectileSpeed: 0.5
+    MoveSpeed: 0
+    GenTime: 20
+    Name: "\uC5F0\uBC1C \uC9D1\uC911\uD3EC\uD654 \uC57C\uD3EC"
+    Animal: 
+    Sentence: "\uC801\uB4E4\uC758 \uC791\uC804\uC73C\uB85C \uAC15\uC81C\uB85C \uD3EC\uD0C4
+      \uACF5\uC7A5\uC758 \uBB38\uC744 \uB2EB\uAC8C \uB418\uC790 \uC5B4\uCA54\uC218
+      \uC5C6\uC774 \uC801\uB4E4\uC758 \uBF08\uB97C \uC57C\uD3EC\uC5D0 \uC7A5\uC804\uD558\uAC8C
+      \uB418\uC5C8\uC2B5\uB2C8\uB2E4."
+    BuildCost: 180
+  - CommonType: 20
+    PlaceType: 0
+    AttackType: 0
+    PoolType: 3
+    UnitPerBuliding: 0
+    Sight: 4
+    Range: 0
+    Cost: 60
+    Damage: 0
+    MaxHp: 50
+    AttackSpeed: 0
+    ProjectileSpeed: 0
+    MoveSpeed: 0
+    GenTime: 5
+    Name: 
+    Animal: 
+    Sentence: 
+    BuildCost: 60
+  - CommonType: 21
+    PlaceType: 0
+    AttackType: 0
+    PoolType: 3
+    UnitPerBuliding: 0
+    Sight: 4
+    Range: 0
+    Cost: 120
+    Damage: 0
+    MaxHp: 75
+    AttackSpeed: 0
+    ProjectileSpeed: 0
+    MoveSpeed: 0
+    GenTime: 10
+    Name: 
+    Animal: 
+    Sentence: 
+    BuildCost: 120
+  - CommonType: 22
+    PlaceType: 0
+    AttackType: 0
+    PoolType: 3
+    UnitPerBuliding: 0
+    Sight: 4
+    Range: 0
+    Cost: 180
+    Damage: 0
+    MaxHp: 100
+    AttackSpeed: 0
+    ProjectileSpeed: 0
+    MoveSpeed: 0
+    GenTime: 20
+    Name: 
+    Animal: 
+    Sentence: 
+    BuildCost: 180
+  - CommonType: 23
+    PlaceType: 0
+    AttackType: 0
+    PoolType: 3
+    UnitPerBuliding: 8
+    Sight: 8
+    Range: 0
+    Cost: 60
+    Damage: 0
+    MaxHp: 150
+    AttackSpeed: 0
+    ProjectileSpeed: 0
+    MoveSpeed: 0
+    GenTime: 20
+    Name: "\uC81C\uBD84\uC18C"
+    Animal: 
+    Sentence: 
+    BuildCost: 60
+  - CommonType: 24
+    PlaceType: 0
+    AttackType: 0
+    PoolType: 3
+    UnitPerBuliding: 1
+    Sight: 1
+    Range: 0
+    Cost: 60
+    Damage: 0
+    MaxHp: 20
+    AttackSpeed: 1
+    ProjectileSpeed: 0
+    MoveSpeed: 0
+    GenTime: 15
+    Name: 
+    Animal: 
+    Sentence: 
+    BuildCost: 60
+  - CommonType: 25
+    PlaceType: 0
+    AttackType: 0
+    PoolType: 0
+    UnitPerBuliding: 0
+    Sight: 2
+    Range: 1
+    Cost: 0
+    Damage: 3
+    MaxHp: 12
+    AttackSpeed: 1
+    ProjectileSpeed: 0
+    MoveSpeed: 2
+    GenTime: 5
+    Name: 
+    Animal: 
+    Sentence: 
+    BuildCost: 0
+  - CommonType: 26
+    PlaceType: 0
+    AttackType: 2
+    PoolType: 0
+    UnitPerBuliding: 0
+    Sight: 1
+    Range: 4
+    Cost: 60
+    Damage: 1
+    MaxHp: 20
+    AttackSpeed: 1
+    ProjectileSpeed: 7
+    MoveSpeed: 0
+    GenTime: 20
+    Name: 
+    Animal: 
+    Sentence: 
+    BuildCost: 60
+  - CommonType: 27
+    PlaceType: 0
+    AttackType: 2
+    PoolType: 3
+    UnitPerBuliding: 0
+    Sight: 4
+    Range: 4
+    Cost: 60
+    Damage: 4
+    MaxHp: 20
+    AttackSpeed: 1
+    ProjectileSpeed: 7
+    MoveSpeed: 0
+    GenTime: 0
+    Name: 
+    Animal: 
+    Sentence: 
+    BuildCost: 60
+  - CommonType: 28
+    PlaceType: 0
+    AttackType: 0
+    PoolType: 3
+    UnitPerBuliding: 6
+    Sight: 4
+    Range: 4
+    Cost: 60
+    Damage: 0
+    MaxHp: 30
+    AttackSpeed: 1
+    ProjectileSpeed: 0
+    MoveSpeed: 0
+    GenTime: 15
+    Name: "\uCEA0\uD504\uD30C\uC774\uC5B4"
+    Animal: 
+    Sentence: 
+    BuildCost: 60
+  - CommonType: 29
+    PlaceType: 0
+    AttackType: 0
+    PoolType: 0
+    UnitPerBuliding: 0
+    Sight: 8
+    Range: 0
+    Cost: 0
+    Damage: 0
+    MaxHp: 20
+    AttackSpeed: 0
+    ProjectileSpeed: 0
+    MoveSpeed: 2
+    GenTime: 0
+    Name: 
+    Animal: 
+    Sentence: 
+    BuildCost: 0
+  - CommonType: 30
+    PlaceType: 0
+    AttackType: 0
+    PoolType: 1
+    UnitPerBuliding: 0
+    Sight: 4
+    Range: 0
+    Cost: 60
+    Damage: 0
+    MaxHp: 50
+    AttackSpeed: 0
+    ProjectileSpeed: 0
+    MoveSpeed: 0
+    GenTime: 5
+    Name: 
+    Animal: 
+    Sentence: 
+    BuildCost: 60

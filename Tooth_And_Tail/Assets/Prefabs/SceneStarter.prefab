@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1361952112058877860
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1361952112058877858}
+  - component: {fileID: 1361952112058877859}
+  m_Layer: 0
+  m_Name: SceneStarter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1361952112058877858
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361952112058877860}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1361952112058877859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361952112058877860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63d57efa056782d4e88d944855c31ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  commonElements: {fileID: 11400000, guid: dab26e0f9115024449a815b50931b29c, type: 2}
+  userElements: {fileID: 11400000, guid: 46f28216d33d10a4ea6fad51065eb0dd, type: 2}
+  animatorElements: {fileID: 11400000, guid: 1bc0d75d0ffd797419d9329daef677e3, type: 2}
+  gameElements: {fileID: 11400000, guid: 7c38c7f15f0458243851cc4eef9c338f, type: 2}
+  tintElements: {fileID: 11400000, guid: 712c438e6407fc6439daa56a3e872e27, type: 2}
+  uIElements: {fileID: 11400000, guid: eb56f0e0945ba64468daa6cb20eff4b4, type: 2}
+  reinforceElements: {fileID: 11400000, guid: cdd5b53c0114cc044830efabffc4f251, type: 2}
+  statisticElements: {fileID: 11400000, guid: 5ed27dc8e5850bf419e4f93b26e28d92, type: 2}
+  soundElements: {fileID: 11400000, guid: 9457980cdc4613a4c90db316d1d2c688, type: 2}
